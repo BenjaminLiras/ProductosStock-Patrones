@@ -1,0 +1,1 @@
+# ProductosStock-Patrones
