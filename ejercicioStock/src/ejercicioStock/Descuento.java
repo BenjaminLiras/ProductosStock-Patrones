@@ -2,7 +2,7 @@ package ejercicioStock;
 
 public class Descuento extends Aplicable {
 
-    private final double montoDescuento;
+    private double montoDescuento;
 
     public Descuento(Producto productoDecorado, double montoDescuento) {
         super(productoDecorado);

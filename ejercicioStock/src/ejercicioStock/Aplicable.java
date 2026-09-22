@@ -2,7 +2,7 @@ package ejercicioStock;
 
 public abstract class Aplicable implements Producto {
 
-    private final Producto productoDecorado;
+    private Producto productoDecorado;
 
     public Aplicable(Producto productoDecorado) {
         this.productoDecorado = productoDecorado;

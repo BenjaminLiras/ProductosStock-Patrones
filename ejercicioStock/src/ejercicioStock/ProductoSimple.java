@@ -2,9 +2,9 @@ package ejercicioStock;
 
 public class ProductoSimple implements Producto {
 
-    private final String nombre;
-    private final double precioBase;
-    private final int stock;
+    private String nombre;
+    private double precioBase;
+    private int stock;
 
     public ProductoSimple(String nombre, double precioBase, int stock) {
         this.nombre = nombre;

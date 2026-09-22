@@ -5,8 +5,8 @@ import java.util.List;
 
 public class Combo implements Producto {
 
-    private final String nombre;
-    private final List<Producto> productos = new ArrayList<>();
+    private String nombre;
+    private ArrayList<Producto> productos = new ArrayList<>();
 
     public Combo(String nombre) {
         this.nombre = nombre;

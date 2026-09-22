@@ -2,9 +2,9 @@ package ejercicioStock;
 
 public interface Producto {
 
-    String getNombre();
+    public String getNombre();
 
-    double getPrecio();
+    public double getPrecio();
 
-    int getStock();
+    public int getStock();
 }
